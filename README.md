@@ -134,7 +134,5 @@ image: <docker-username>/taskmanager-app:latest
 * Add authentication (JWT)
 ---
 
-👨‍💻 Author
-Harshit
----
+Thank You
 
