@@ -27,9 +27,8 @@ taskmanager/
 ├── src/
 ├── Dockerfile
 ├── pom.xml
-├── k8s/
-│   ├── deployment.yaml
-│   └── service.yaml
+│── deployment.yaml
+│── service.yaml
 └── .github/
     └── workflows/
         └── docker.yml
@@ -78,8 +77,8 @@ docker run -p 8080:8080 taskmanager-app
 ### Apply manifests
 
 ```bash
-kubectl apply -f k8s/deployment.yaml
-kubectl apply -f k8s/service.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
 ```
 
 ### Access application
